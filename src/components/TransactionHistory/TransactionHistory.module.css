@@ -1,0 +1,30 @@
+.transactions {
+  text-align: center;
+  margin: 0 auto;
+  width: 570px;
+  border-collapse: collapse;
+  border-color: black;
+
+  font-size: 18px;
+}
+.thead {
+  color: white;
+  font-weight: bold;
+}
+.thead th {
+  background-color: #2e2f42;
+}
+.transactions th,
+.transactions td {
+  padding: 8px 12px;
+  border: 1px solid #000;
+  font-size: 18px;
+}
+
+.transactions tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transactions tr:nth-child(odd) {
+  background-color: #e9e9e9;
+}
